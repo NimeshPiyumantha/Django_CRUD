@@ -21,5 +21,5 @@ from django.urls import path, include  # Correct import for Django 4.0 and above
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('EmployeeApp.urls')),
+    path('api/v1/', include('EmployeeApp.urls')),
 ]
