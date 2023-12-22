@@ -9,7 +9,6 @@ from EmployeeApp.serializers import DepartmentSerializer, EmployeeSerializer
 # Create your views here.
 
 @csrf_exempt
-@csrf_exempt
 def departmentApi(request,id=0):
     if request.method=='GET':
         departments = Departments.objects.all()
