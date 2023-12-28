@@ -13,6 +13,7 @@ pip install django-cors-headers
 ### project create
 
 ```
+python -m django startproject django_backend
 django-admin startproject <name of the project>
 ```
 
